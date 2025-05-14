@@ -50,3 +50,6 @@ int main(int argc, char** argv) {
     MPI_Finalize();
     return 0;
 }
+
+
+// g++ pract_9_sync.cpp -o process_sync_collective.exe -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -L"C:\Program Files (x86)\MicrosoftSDKs\MPI\Lib\x64" -lmsmpi
